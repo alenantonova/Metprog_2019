@@ -1,32 +1,8 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "Homework on JAVA BIT course."
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.7.2"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 2
-}
+
+## Домашнее задание 2 : Трёхкатегорийная абстрактная фабрика
+
+```TypeLishUtils.h``` - Основные функции, которые используются для работы со списками типов. Взяты из [статьи на хабре](https://habr.com/ru/post/220217/)
+
+```FactoryUtils.h``` - функции/классы для работы со списками типов в контексте данной задачи
+
+В остальных файлах описаны объекты для частного случая абстрактной фабрики (3 типа товара, из возможных признаков - материал и страна-производитель)
