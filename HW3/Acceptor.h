@@ -1,5 +1,4 @@
-#ifndef ACCEPTER_H
-#define ACCEPTER_H
+#pragma once
 
 #include "Visitor.h"
 
@@ -8,5 +7,3 @@ class Acceptor {
 public:
     virtual R accept(Visitor<R, Args...>* visitor, Args... args) = 0;
 };
-
-#endif

@@ -1,5 +1,4 @@
-#ifndef VISITOR_H
-#define VISITOR_H
+#pragma once
 
 class USDExchangeAcceptor;
 class EURExchangeAcceptor;
@@ -10,5 +9,3 @@ public:
     virtual R visit(USDExchangeAcceptor* acc, Args... args) = 0;
     virtual R visit(EURExchangeAcceptor* acc, Args... args) = 0;
 };
-
-#endif
